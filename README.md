@@ -25,7 +25,7 @@ Setup do desafio: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a5
 
 Instruções:
 
-1. Fazer o setup do desafio, igual no link: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
+1. Fazer o setup do desafio.
 
 2. O arquivo do ambiente 3D que vai acontecer o desafio é o "quadrado_seletiva.world". O arquivo deve ser carregado no simulador 3D.
 
