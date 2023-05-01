@@ -17,20 +17,30 @@ Setup do desafio: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a5
 
 Site do Robôcin: https://robocin.com.br/
 
+Informações:
 
+- O arquivo "decolar.py" faz com que o drone decole a 0.8 de altura.
+- O arquivo "pousar.py" faz com que o drone pouse na superfície.
+- O arquivo "movimento1.py" faz com que o drone se movimente, se o drone estiver sobrevoando o centro do quadrado da seletiva, ele vai para a borda vermelha do quadrado.
+- O arquivo "movimento2.py" faz com que o drone se movimente, se o drone estiver sobrevoando o ponto de partida do desafio, ele vai para o centro do quadrado.
+- O arquivo "movimentocores.py" faz com que o drone se movimente baseado nas cores que a câmera abaixo dele está captando, e ele sempre vai pousar o drone depois que ver uma cor verde após ter visto uma cor vermelha.
+- O arquivo "movimentocoresreserva.py" é uma versão do arquivo "movimentocores.py", a diferença é que este arquivo reserva não interage com a cor branca.
+- Os arquivos em PDF são sobre o processo seletivo e os desafios.
+- O arquivo "Software Setup.html" é um arquivo que mostra o setup do desafio.
+- O arquivo "quadrado_seletiva.world" é o ambiente em que vai acontecer o desafio de decisão e movimentação de drones, ele deve ser carregado pelo simulador 3D após o setup do desafio.
 
-Instruções:
+Instruções para o desafio:
 
 1. Fazer o setup do desafio.
 
 2. O arquivo do ambiente 3D que vai acontecer o desafio é o "quadrado_seletiva.world". O arquivo deve ser carregado no simulador 3D.
 
-3. Rodar o arquivo "movimentocores.py" e esperar o drone pousar no ponto de partida do desafio.
+3. Rodar o arquivo "decolar.py" e esperar o drone estabilizar-se em uma altura. 
 
-4. Rodar o arquivo "decolar.py" e esperar o drone estabilizar-se em uma altura.
+4. Rodar o arquivo "movimentocores.py" e esperar o drone pousar no ponto de partida do desafio.
 
-5. Rodar o arquivo "movimentocores.py" novamente e esperar o drone realizar a trajetória para completar o desafio e então pousar no final.
+INÍCIO DO DESAFIO:
 
-Informações:
+5. Rodar o arquivo "decolar.py" e esperar o drone estabilizar-se em uma altura.
 
-- O arquivo "decolar.py" faz com que o drone decole a 
+6. Rodar o arquivo "movimentocores.py" novamente e esperar o drone realizar a trajetória para completar o desafio e então pousar no final.

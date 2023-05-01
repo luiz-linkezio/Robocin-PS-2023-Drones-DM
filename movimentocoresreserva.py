@@ -79,7 +79,6 @@ class ImageSubscriber(Node):
             send_ned_velocity(vehicle,0,-0.2,0,1)     
         
         print(f"Pixel ({x}, {y}): R={r}, G={g}, B={b}")
-        print(self.final)
                 
         cv2.waitKey(1)
 
@@ -88,9 +87,13 @@ class ImageSubscriber(Node):
 def main(args=None):
     rclpy.init(args=args)
     image_subscriber = ImageSubscriber()
-    rclpy.spin(image_subscriber)
+    while rclpy.ok(): # Loop que só se quebra quando o drone pousa
+        rclpy.spin_once(image_subscriber)
+        if vehicle.mode.name == "LAND":
+            break
     image_subscriber.destroy_node()
     rclpy.shutdown()
+    time.sleep(10)
 
 if __name__ == '__main__':
     main()

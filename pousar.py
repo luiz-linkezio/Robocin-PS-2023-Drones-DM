@@ -11,3 +11,5 @@ vehicle = connect(connection_string, wait_ready=True)
 # Mudando modo do veículo para LAND e desarmando
 vehicle.mode = VehicleMode("LAND")
 vehicle.armed = False
+
+time.sleep(10)
