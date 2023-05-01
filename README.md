@@ -7,10 +7,15 @@ Este repositório é para armazenamento e entrega do desafio de decisão e movim
 
 links:
 https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
+
 https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
+
 https://robocin.com.br/
+
 https://portal.cin.ufpe.br/
+
 https://www.ufpe.br/
+
 https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
 
 
