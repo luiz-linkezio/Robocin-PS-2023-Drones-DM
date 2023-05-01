@@ -13,13 +13,9 @@ Edital do processo seletivo: https://robocin.com.br/archives/ps-2023/edital-ps20
 
 PDF dos desafios de drones: https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
 
-Site do Robôcin: https://robocin.com.br/
-
-Site do CIN: https://portal.cin.ufpe.br/
-
-Site da UFPE: https://www.ufpe.br/
-
 Setup do desafio: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
+
+Site do Robôcin: https://robocin.com.br/
 
 
 
