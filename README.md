@@ -1,9 +1,9 @@
 # RobocinPS-2023-Drones
 Processo Seletivo 2023 do Robôcin do CIN da UFPE - Drones - Decisão e Movimentação
 
-This repository is for storage and delivery of the challenge of decision and movement of drones of the 2023 selective process of Robôcin. Robôcin is a research group at the UFPE's Informatics Center, which uses robotics to solve problems.
+This repository is for storage and delivery of the challenge of decision and movement of drones of the 2023 selection process of Robôcin. Robôcin is a research group from the Informatics Center of the Federal University of Pernambuco, which uses robotics to solve problems.
 
-Este repositório é para armazenamento e entrega do desafio de decisão e movimentação de drones do processo seletivo de 2023 do Robôcin. O Robôcin é um grupo de pesquisa do Centro de Informática da UFPE, que utiliza a robótica para resolver problemas. 
+Este repositório é para armazenamento e entrega do desafio de decisão e movimentação de drones do processo seletivo de 2023 do Robôcin. O Robôcin é um grupo de pesquisa do Centro de Informática da Universidade Federal de Pernambuco, que utiliza a robótica para resolver problemas. 
 
 links:
 
