@@ -1,0 +1,3 @@
+[INFO] [1681703449.394846513] [gazebo_ros_node]: ROS was initialized without arguments.
+[INFO] [1681703449.518005148] [camera_controller]: Publishing camera info to [/camera/camera_info]
+[INFO] [1681703509.303086858] [rclcpp]: signal_handler(signum=2)
