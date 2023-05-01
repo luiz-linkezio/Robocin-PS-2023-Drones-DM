@@ -30,3 +30,7 @@ Instruções:
 4. Rodar o arquivo "decolar.py" e esperar o drone estabilizar-se em uma altura.
 
 5. Rodar o arquivo "movimentocores.py" novamente e esperar o drone realizar a trajetória para completar o desafio e então pousar no final.
+
+Informações:
+
+- O arquivo "decolar.py" faz com que o drone decole a 
