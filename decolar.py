@@ -22,7 +22,7 @@ vehicle.armed = True
 while not vehicle.armed:
     time.sleep(1)
 
-# Decolagem
+# Decolagem para a altura 0.8
 vehicle.simple_takeoff(0.8)
 
 time.sleep(5)

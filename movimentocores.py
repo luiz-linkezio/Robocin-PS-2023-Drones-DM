@@ -30,68 +30,71 @@ def send_ned_velocity(vehicle, velocity_x, velocity_y, velocity_z, duration):
     for x in range(0, duration):
         vehicle.send_mavlink(msg)
         time.sleep(1)
-
+        
+# Nó do ROS2
 class ImageSubscriber(Node):
     def __init__(self):
         super().__init__('image_subscriber')
         self.subscription = self.create_subscription(
             Image,
-            'camera/image_raw',  # substitua este tópico pelo tópico que você está usando para a imagem
+            'camera/image_raw',  # Substitua este tópico pelo tópico que você está usando para a imagem
             self.listener_callback,
             10)
-        self.bridge = CvBridge()
+        self.bridge = CvBridge() # Armazena a função que vai manipular o formato da informação adquirida pela câmera
         self.central_pixel = None
         
         self.final = False
 			
-    def listener_callback(self, data):
-        cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
-        cv2.imshow("Image window", cv_image)
+    # Função que vai manipular e interpretar as informações da imagem.
+    def listener_callback(self, data):  
+        cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8") # Converte a informação obtida pelo ROS2 em uma imagem interpretável pelo OpenCV
+        cv2.imshow("Image window", cv_image) # Abre uma janela que mostra as imagens que o OpenCV está utilizando
         
         # Obtém as dimensões da imagem
         height, width, channels = cv_image.shape
 
         # Obtém o pixel central
-        if self.central_pixel is None:
-            self.central_pixel = (int(width/2), int(height/2))
-        else:
-            # Encontra o pixel central no novo quadro
-            self.central_pixel = (int(width/2), int(height/2))
-
+        self.central_pixel = (int(width/2), int(height/2))
         
         # Obtém os valores RGB do pixel central
         x, y = self.central_pixel
         b, g, r = cv_image[y, x]
         
-        
+        # Verificação de qual cor é o pixel central da imagem que o drone está registrando
+        # Cores: branco, rosa, vermelho, verde, azul
+        # Branco 
         if r == 218 and b == 218 and g == 218:
             send_ned_velocity(vehicle,0.2,0.1,0,1) 
-        
+        # Rosa
         elif r > 200 and b > 200 and g < 30:        
-            send_ned_velocity(vehicle,0.2,0,0,1)   
+            send_ned_velocity(vehicle,0.2,0,0,1)
+        # Vermelho   
         elif r > (1.5*b) and r > (1.5*g):
             send_ned_velocity(vehicle,0,0.2,0,1)
             self.final = True
+        # Verde    
         elif g > (1.5*b) and g > (1.5*r):
             if self.final == False:
                 send_ned_velocity(vehicle,-0.2,0,0,1)
             else:
                 vehicle.mode = VehicleMode("LAND")
                 vehicle.armed = False
+        # Azul        
         elif b > (1.5*r) and b > (1.5*g):
             send_ned_velocity(vehicle,0,-0.2,0,1)     
         
+        # Print das coordenadas do pixel central e das informações RGB de cada cor registrada
         print(f"Pixel ({x}, {y}): R={r}, G={g}, B={b}")
                 
         cv2.waitKey(1)
 
 
-
+# Função main
 def main(args=None):
     rclpy.init(args=args)
     image_subscriber = ImageSubscriber()
     while rclpy.ok():  # Loop que só se quebra quando o drone pousa
-        rclpy.spin_once(image_subscriber)
+        rclpy.spin_once(image_subscriber) # Chama a classe image_subscriber, ela é quem faz quase tudo
         if vehicle.mode.name == "LAND":
             break
     image_subscriber.destroy_node()

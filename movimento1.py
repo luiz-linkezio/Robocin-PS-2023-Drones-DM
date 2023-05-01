@@ -25,5 +25,5 @@ def send_ned_velocity(vehicle, velocity_x, velocity_y, velocity_z, duration):
         vehicle.send_mavlink(msg)
         time.sleep(1)
 
-# Usando a def de movimentação        
+# Usando a def de movimentação do drone        
 send_ned_velocity(vehicle,1.53,0,0,1) #(veículo,x,y,z,tempo)
