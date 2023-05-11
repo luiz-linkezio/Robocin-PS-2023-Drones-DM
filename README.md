@@ -1,11 +1,11 @@
 # RobocinPS-2023-Drones-DM
-## Robôcin CIN UFPE 2023 Selection Process - Drones - Decision and Movement
+### Robôcin CIN UFPE 2023 Selection Process - Drones - Decision and Movement
 
 This repository is for storage and submission of the drone decision and movement challenge for Robôcin's 2023 selection process. Robôcin is a research group at the Center for Informatics of the Federal University of Pernambuco that utilizes robotics to solve problems. The chosen category for the selection process is Drones, and the subcategory is Decision and Movement.
 
 The objective of the challenge is to create one or more codes that make a drone from a 3D simulation traverse the perimeter of a square that contains 4 colors. After traversing all the colors, the drone should land. The starting point of the drone is the intersection of the green part of the perimeter with the red part of the perimeter.
 
-## Processo Seletivo 2023 do Robôcin do CIN da UFPE - Drones - Decisão e Movimentação
+### Processo Seletivo 2023 do Robôcin do CIN da UFPE - Drones - Decisão e Movimentação
 
 Este repositório é para armazenamento e entrega do desafio de decisão e movimentação de drones do processo seletivo de 2023 do Robôcin. O Robôcin é um grupo de pesquisa do Centro de Informática da Universidade Federal de Pernambuco, que utiliza a robótica para resolver problemas. A categoria escolhida do processo seletivo é Drones, e a subcategoria é Decisão e Movimentação. 
 
@@ -13,13 +13,17 @@ O objetivo do desafio é criar um ou mais códigos que façam um drone de uma si
 
 ## links:
 
-Edital do processo seletivo: https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
+#### Edital do processo seletivo: https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
 
-PDF dos desafios de drones: https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
+#### PDF dos desafios de drones: https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
 
-Setup do desafio: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
+#### Setup do desafio: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
 
-Site do Robôcin: https://robocin.com.br/
+#### Site do Robôcin: https://robocin.com.br/
+
+#### Site da UFPE: https://www.ufpe.br/
+
+#### Site do CIN: https://portal.cin.ufpe.br/
 
 ## Informações sobre os arquivos:
 
