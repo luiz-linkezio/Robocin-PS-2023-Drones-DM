@@ -27,7 +27,7 @@ O objetivo do desafio é criar um ou mais códigos que façam um drone de uma si
 
 ## Informações sobre os arquivos:
 
-- O arquivo `Software Setup.html` é um arquivo que mostra o setup do desafio.
+- O arquivo `quadrado_seletiva.world` é o ambiente em que vai acontecer o desafio de decisão e movimentação de drones, ele deve ser carregado pelo simulador 3D após o setup do desafio.
 - O arquivo `video_completando_o_desafio_DM.mkv` é um vídeo mostrando o desafio sendo completado.
 
 ### Na pasta `Arquivos Python`:
@@ -42,7 +42,7 @@ O objetivo do desafio é criar um ou mais códigos que façam um drone de uma si
 ### Na pasta `Informações sobre o projeto`:
 
 - Os arquivos `edital-ps2023-v1.pdf` e `projeto-ps2023-drones-v1.pdf` são sobre o processo seletivo e os desafios.
-- O arquivo `quadrado_seletiva.world` é o ambiente em que vai acontecer o desafio de decisão e movimentação de drones, ele deve ser carregado pelo simulador 3D após o setup do desafio.
+- O arquivo `Software Setup.html` é um arquivo que mostra o setup do desafio.
 
 ## Instruções para o desafio:
 
