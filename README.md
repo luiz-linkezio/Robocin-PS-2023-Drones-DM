@@ -25,7 +25,7 @@ O objetivo do desafio é criar um ou mais códigos que façam um drone de uma si
 
 #### Site do CIN: https://portal.cin.ufpe.br/
 
-## Informações sobre os arquivos:
+## Informações sobre os arquivos importantes:
 
 - O arquivo `quadrado_seletiva.world` é o ambiente em que vai acontecer o desafio de decisão e movimentação de drones, ele deve ser carregado pelo simulador 3D após o setup do desafio.
 - O arquivo `video_completando_o_desafio_DM.mkv` é um vídeo mostrando o desafio sendo completado.
