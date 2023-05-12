@@ -7,17 +7,17 @@ The objective of the challenge is to create one or more codes that make a drone 
 
 ## Links:
 
-#### Selection process announcement: https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
+Selection process announcement: https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
 
-#### Drones challenge PDF: https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
+Drones challenge PDF: https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
 
-#### Challenge setup: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
+Challenge setup: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
 
-#### Robôcin website: https://robocin.com.br/
+Robôcin website: https://robocin.com.br/
 
-#### UFPE website: https://www.ufpe.br/
+UFPE website: https://www.ufpe.br/
 
-#### CIN website: https://portal.cin.ufpe.br/
+CIN website: https://portal.cin.ufpe.br/
 
 ## Information about important files:
 
