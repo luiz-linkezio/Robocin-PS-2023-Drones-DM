@@ -6,19 +6,19 @@ Este repositório é para armazenamento e entrega do desafio de decisão e movim
 
 O objetivo do desafio é criar um ou mais códigos que façam um drone de uma simulação 3D percorrer o perímetro de um quadrado que contém 4 cores, após percorrer todas as cores, o drone deve pousar. O ponto de partida do drone é a interseção da parte verde do périmetro com a parte vermelha do perímetro.
 
-## links:
+## Links:
 
-#### Edital do processo seletivo: https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
+Edital do processo seletivo: https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
 
-#### PDF dos desafios de drones: https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
+PDF dos desafios de drones: https://robocin.com.br/archives/ps-2023/projeto-ps2023-drones-v1.pdf?
 
-#### Setup do desafio: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
+Setup do desafio: https://bymateus.notion.site/Software-Setup-b3f9eecaa44946b0a59bfc81c0adb44e
 
-#### Site do Robôcin: https://robocin.com.br/
+Site do Robôcin: https://robocin.com.br/
 
-#### Site da UFPE: https://www.ufpe.br/
+Site da UFPE: https://www.ufpe.br/
 
-#### Site do CIN: https://portal.cin.ufpe.br/
+Site do CIN: https://portal.cin.ufpe.br/
 
 ## Informações sobre os arquivos importantes:
 
