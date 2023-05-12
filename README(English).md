@@ -1,4 +1,4 @@
-# RobocinPS-2023-Drones-DM
+# RobocinSP-2023-Drones-DM
 ### Robôcin CIN UFPE 2023 Selection Process - Drones - Decision and Movement
 
 This repository is for storage and submission of the drone decision and movement challenge for Robôcin's 2023 selection process. Robôcin is a research group at the Center for Informatics of the Federal University of Pernambuco that utilizes robotics to solve problems. The chosen category for the selection process is Drones, and the subcategory is Decision and Movement.
