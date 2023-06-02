@@ -20,12 +20,14 @@ Site da UFPE: https://www.ufpe.br/
 
 Site do CIN: https://portal.cin.ufpe.br/
 
+Python site oficial: https://www.python.org
+
 ## Informações sobre os arquivos importantes:
 
 - O arquivo `quadrado_seletiva.world` é o ambiente em que vai acontecer o desafio de decisão e movimentação de drones, ele deve ser carregado pelo simulador 3D após o setup do desafio.
 - O arquivo `video_completando_o_desafio_DM.mkv` é um vídeo mostrando o desafio sendo completado.
 
-### No diretório `Arquivos Python`:
+### No diretório `Arquivos [Python](https://www.python.org)`:
 
 - O arquivo `decolar.py` faz com que o drone decole a 0.8 de altura.
 - O arquivo `pousar.py` faz com que o drone pouse na superfície.
