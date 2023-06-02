@@ -19,6 +19,8 @@ UFPE website: https://www.ufpe.br/
 
 CIN website: https://portal.cin.ufpe.br/
 
+Official Python website: https://www.python.org
+
 ## Information about important files:
 
 - The `quadrado_seletiva.world` file is the environment where the drone decision and movement challenge will take place. It should be loaded by the 3D simulator after the challenge setup.
