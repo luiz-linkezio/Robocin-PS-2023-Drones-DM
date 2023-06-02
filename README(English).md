@@ -26,7 +26,7 @@ Official Python website: https://www.python.org
 - The `quadrado_seletiva.world` file is the environment where the drone decision and movement challenge will take place. It should be loaded by the 3D simulator after the challenge setup.
 - The `video_completando_o_desafio_DM.mkv` file is a video showing the challenge being completed.
 
-### In the `Python Files` directory:
+### In the `Arquivos Python` directory:
 
 - The `decolar.py` file makes the drone take off to a height of 0.8.
 - The `pousar.py` file makes the drone land on the surface.
@@ -35,7 +35,7 @@ Official Python website: https://www.python.org
 - The `movimentocores.py` file makes the drone move based on the colors captured by the camera beneath it. It will always land the drone after seeing a green color following a red color.
 - The `movimentocoresreserva.py` file is a version of the `movimentocores.py` file, with the difference that this reserve file does not interact with the color white (this file may be outdated compared to `movimentocores.py`).
 
-### In the `Project Information` directory:
+### In the `Informações sobre o projeto` directory:
 
 - The `edital-ps2023-v1.pdf` and `projeto-ps2023-drones-v1.pdf` files contain information about the selection process and the challenges.
 - The `Software Setup.html` file shows the challenge setup.
