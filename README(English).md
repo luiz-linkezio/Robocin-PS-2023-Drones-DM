@@ -5,6 +5,8 @@ This repository is for storage and submission of the drone decision and movement
 
 The objective of the challenge is to create one or more codes that make a drone from a 3D simulation traverse the perimeter of a square that contains 4 colors. After traversing all the colors, the drone should land. The starting point of the drone is the intersection of the green part of the perimeter with the red part of the perimeter.
 
+The project was approved and praised by the Robôcin team, and I moved on to the next phase of the selection process.
+
 ## Links:
 
 Selection process announcement: https://robocin.com.br/archives/ps-2023/edital-ps2023-v1.pdf?
