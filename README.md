@@ -6,7 +6,7 @@ Este repositório é para armazenamento e entrega do desafio de decisão e movim
 
 O objetivo do desafio é criar um ou mais códigos que façam um drone de uma simulação 3D percorrer o perímetro de um quadrado que contém 4 cores, após percorrer todas as cores, o drone deve pousar. O ponto de partida do drone é a interseção da parte verde do périmetro com a parte vermelha do perímetro.
 
-O projeto foi aprovado e elogiado pela equipe do Robôcin, e passei para a próxima fase do processo seletivo.
+Este projeto foi aprovado e elogiado pela equipe do Robôcin, e passei para a próxima fase do processo seletivo.
 
 ## Links:
 
