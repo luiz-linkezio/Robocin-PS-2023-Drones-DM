@@ -1,6 +1,6 @@
 # RobocinPS-2023-Drones-DM
 
-### Processo Seletivo 2023 do [Robôcin](https://robocin.com.br/) do [CIN](https://portal.cin.ufpe.br/) da [UFPE](https://www.ufpe.br/) - Drones - Decisão e Movimentação
+### Processo Seletivo 2023 do [Robôcin](https://robocin.com.br/) do [CIn](https://portal.cin.ufpe.br/) da [UFPE](https://www.ufpe.br/) - Drones - Decisão e Movimentação
 
 Este repositório é para armazenamento e entrega do desafio de decisão e movimentação de drones do processo seletivo de 2023 do Robôcin. O Robôcin é um grupo de pesquisa do Centro de Informática da Universidade Federal de Pernambuco, que utiliza a robótica para resolver problemas. A categoria escolhida do processo seletivo é Drones, e a subcategoria é Decisão e Movimentação. 
 
@@ -20,7 +20,7 @@ Site do Robôcin: https://robocin.com.br/
 
 Site da UFPE: https://www.ufpe.br/
 
-Site do CIN: https://portal.cin.ufpe.br/
+Site do CIn: https://portal.cin.ufpe.br/
 
 Python site oficial: https://www.python.org
 
